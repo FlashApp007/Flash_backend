@@ -14,5 +14,6 @@ export class AuthRoute {
     private initializeRoutes() {
         this.router.post('/login', this.authHandler.login);
         this.router.post('/register', this.authHandler.register);
+        this.router.post('/verify-otp', this.authHandler.verifyOtp);
     }
 }

@@ -19,6 +19,6 @@ export class Routes {
         this.router.use('/auth', this.authRoute.router);
         
         // Mount lookup codes routes under /lookup-codes
-        this.router.use('/lookup-codes', this.lookupCodesRoute.router);
+        // this.router.use('/lookup-codes', this.lookupCodesRoute.router);
     }
 }
