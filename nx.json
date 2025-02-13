@@ -38,7 +38,14 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/flash-backend-e2e/**/*"]
+      "exclude": [
+        "apps/flash-backend-e2e/**/*",
+        "buyer_backend-e2e/**/*",
+        "apps/buyer_backend-e2e/**/*",
+        "apps/seller_backend-e2e/**/*",
+        "apps/logistics_backend-e2e/**/*",
+        "apps/support_backend-e2e/**/*"
+      ]
     }
   ]
 }
